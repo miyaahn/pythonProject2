@@ -32,3 +32,4 @@ average_score = silhouette_score(iris_data.data, irisDF['cluster'])
 print(average_score)
 print(irisDF.groupby('cluster')['silhoutte_coeff'].mean())
 
+tets
